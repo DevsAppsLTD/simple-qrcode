@@ -1,41 +1,36 @@
-Simple QrCode
-========================
-
-![Unit Tests](https://github.com/SimpleSoftwareIO/simple-qrcode/workflows/Unit%20Tests/badge.svg)
-[![Latest Stable Version](https://poser.pugx.org/simplesoftwareio/simple-qrcode/v/stable.svg)](https://packagist.org/packages/simplesoftwareio/simple-qrcode)
-[![Latest Unstable Version](https://poser.pugx.org/simplesoftwareio/simple-qrcode/v/unstable.svg)](https://packagist.org/packages/simplesoftwareio/simple-qrcode)
-[![License](https://poser.pugx.org/simplesoftwareio/simple-qrcode/license.svg)](https://packagist.org/packages/simplesoftwareio/simple-qrcode)
-[![Total Downloads](https://poser.pugx.org/simplesoftwareio/simple-qrcode/downloads.svg)](https://packagist.org/packages/simplesoftwareio/simple-qrcode)
-
-## [Deutsch](https://www.simplesoftware.io/#/docs/simple-qrcode/de) | [Español](https://www.simplesoftware.io/#/docs/simple-qrcode/es) | [Français](https://www.simplesoftware.io/#/docs/simple-qrcode/fr) | [Italiano](https://www.simplesoftware.io/#/docs/simple-qrcode/it) | [Português](https://www.simplesoftware.io/#/docs/simple-qrcode/pt-br) | [Русский](https://www.simplesoftware.io/#/docs/simple-qrcode/ru) | [日本語](https://www.simplesoftware.io/#/docs/simple-qrcode/ja) | [한국어](https://www.simplesoftware.io/#/docs/simple-qrcode/kr) | [हिंदी](https://www.simplesoftware.io/#/docs/simple-qrcode/hi) | [简体中文](https://www.simplesoftware.io/#/docs/simple-qrcode/zh-cn) | [العربية](https://www.simplesoftware.io/#/docs/simple-qrcode/ar)
-
-Language files are currently out of date.  We need volunteers to upgrade them to v4!  Please submit a PR request!
-
 ## Introduction
-Simple QrCode is an easy to use wrapper for the popular Laravel framework based on the great work provided by [Bacon/BaconQrCode](https://github.com/Bacon/BaconQrCode).  We created an interface that is familiar and easy to install for Laravel users.
 
-## Official Documentation
+**Simple QrCode** is an easy-to-use QR code generator for the Laravel framework,  
+based on the excellent work provided by [Bacon/BaconQrCode](https://github.com/Bacon/BaconQrCode).
 
-Documentation for Simple QrCode can be found on our [website.](http://www.simplesoftware.io/#/docs/simple-qrcode)
+This package was originally created and maintained by *Simple Software LLC (2014–2020)*.  
+As the original project is no longer maintained, this fork continues development and provides updates for modern Laravel and PHP versions.
+
+## Documentation
+
+Documentation is maintained directly in this repository:
+- [Installation](docs/installation.md)
+- [Usage](docs/usage.md)
+- [Examples](docs/examples.md)
+
+*(You can keep docs inline here or expand them under `/docs`.)*
 
 ## Examples
 
-![Example 1](docs/imgs/example-1.png) ![Example 2](docs/imgs/example-2.png)
+![Example 1](docs/imgs/example-1.png)  
+![Example 2](docs/imgs/example-2.png)
 
 ## Use Cases
-<p align="center">
-  <a href="https://www.rsvpify.com">
-  	<img width="300" src="https://rsvpify.com/wp-content/uploads/2017/03/rsvpify-logo-header-rsvp.png">
-  </a>
-</p>
-<p align="center">
-  <a href="https://rsvpify.com/sell-tickets">Platform to sell tickets online</a>
-</p>
+
+This package is used in various applications, including event platforms, ticketing systems, and e-commerce solutions.  
+It can generate QR codes for URLs, payment links, WiFi credentials, and more.
 
 ## Contributing
 
-Please submit all issues and pull requests to the [simplesoftwareio/simple-qrcode](https://github.com/simplesoftwareio/simple-qrcode) repository on the develop branch!
+Pull requests are welcome! Please submit issues and contributions to this repository on the `main` branch.
 
 ## License
 
-This software is released under the [MIT license.](https://opensource.org/licenses/MIT)
+This software is released under the [MIT license](LICENSE).  
+Copyright © 2014–2020 Simple Software LLC  
+Copyright © 2025 DevsApps LTD
